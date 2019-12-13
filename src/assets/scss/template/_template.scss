@@ -1,6 +1,10 @@
 html,
-body,
-center {
+body {
+  background: #f4f7fa;
+  background-color: #f4f7fa;
+}
+
+.center {
   background: #f4f7fa;
   background-color: #f4f7fa;
 }
@@ -23,8 +27,4 @@ center {
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-.footer {
-  background-color: #f4f7fa;
 }
