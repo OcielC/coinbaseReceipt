@@ -1,0 +1,30 @@
+html,
+body,
+center {
+  background: #f4f7fa;
+  background-color: #f4f7fa;
+}
+
+.header {
+  background: #f4f7fa;
+  background-color: #f4f7fa;
+
+  &>tbody>tr>th {
+    text-align: center;
+  }
+
+  &>tbody>tr>th>table>tbody>tr>th>a>img {
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.footer {
+  background-color: #f4f7fa;
+}
